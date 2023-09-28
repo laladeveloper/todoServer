@@ -7,7 +7,6 @@ config({
       path:"./config/.env"
 })
 
-console.log(`cloudingary name ${process.env.CLOUD_NAME} apikey ${process.env.CLOUD_API_KEY}  apisecret ${process.env.CLOUD_API_SECRET}`);
 
 cloudinary.config({ 
       cloud_name: process.env.CLOUD_NAME, 
